@@ -1,0 +1,21 @@
+@import './theme.css';
+
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-align-center{
+  align-items: center;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}

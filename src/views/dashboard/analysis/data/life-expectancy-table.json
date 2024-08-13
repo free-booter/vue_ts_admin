@@ -1,0 +1,377 @@
+[
+  { "country": "Australia", "year": 2020, "sales": 500000 },
+  { "country": "China", "year": 2020, "sales": 450000 },
+  { "country": "Germany", "year": 2020, "sales": 300000 },
+  { "country": "India", "year": 2020, "sales": 200000 },
+  { "country": "Brazil", "year": 2020, "sales": 150000 },
+  { "country": "Russia", "year": 2020, "sales": 410000 },
+  { "country": "Australia", "year": 2021, "sales": 550000 },
+  { "country": "China", "year": 2021, "sales": 470000 },
+  { "country": "Germany", "year": 2021, "sales": 320000 },
+  { "country": "India", "year": 2021, "sales": 220000 },
+  { "country": "Brazil", "year": 2021, "sales": 460000 },
+  { "country": "Russia", "year": 2021, "sales": 230000 },
+  { "country": "Australia", "year": 2022, "sales": 600000 },
+  { "country": "China", "year": 2022, "sales": 490000 },
+  { "country": "Germany", "year": 2022, "sales": 140000 },
+  { "country": "India", "year": 2022, "sales": 240000 },
+  { "country": "Brazil", "year": 2022, "sales": 870000 },
+  { "country": "Russia", "year": 2022, "sales": 470000 },
+  { "country": "Australia", "year": 2023, "sales": 650000 },
+  { "country": "China", "year": 2023, "sales": 510000 },
+  { "country": "Germany", "year": 2023, "sales": 360000 },
+  { "country": "India", "year": 2023, "sales": 260000 },
+  { "country": "Brazil", "year": 2023, "sales": 480000 },
+  { "country": "Russia", "year": 2023, "sales": 660000 },
+  { "country": "Australia", "year": 2024, "sales": 600000 },
+  {
+    "country": "China",
+    "year": 2024,
+    "sales": 830000,
+    "regions": [
+      {
+        "region": { "name": "北京市", "name_en": "Beijing" },
+        "sales": 50000,
+        "cities": [
+          {
+            "city": "东城区",
+            "sales": 8000,
+            "counties": [
+              { "county": "东华门街道", "sales": 3000 },
+              { "county": "景山街道", "sales": 2000 },
+              { "county": "东直门街道", "sales": 3000 }
+            ]
+          },
+          {
+            "city": "西城区",
+            "sales": 7000,
+            "counties": [
+              { "county": "金融街街道", "sales": 3000 },
+              { "county": "月坛街道", "sales": 2000 },
+              { "county": "展览路街道", "sales": 2000 }
+            ]
+          },
+          {
+            "city": "朝阳区",
+            "sales": 10000,
+            "counties": [
+              { "county": "三里屯街道", "sales": 4000 },
+              { "county": "望京街道", "sales": 3000 },
+              { "county": "潘家园街道", "sales": 3000 }
+            ]
+          },
+          {
+            "city": "海淀区",
+            "sales": 12000,
+            "counties": [
+              { "county": "中关村街道", "sales": 5000 },
+              { "county": "万寿路街道", "sales": 4000 },
+              { "county": "北太平庄街道", "sales": 3000 }
+            ]
+          },
+          {
+            "city": "丰台区",
+            "sales": 10000,
+            "counties": [
+              { "county": "卢沟桥街道", "sales": 4000 },
+              { "county": "方庄街道", "sales": 3000 },
+              { "county": "太平桥街道", "sales": 3000 }
+            ]
+          },
+          {
+            "city": "石景山区",
+            "sales": 3000,
+            "counties": [
+              { "county": "八角街道", "sales": 1500 },
+              { "county": "金顶街街道", "sales": 1000 },
+              { "county": "老山街道", "sales": 500 }
+            ]
+          }
+        ]
+      },
+      {
+        "region": { "name": "上海市", "name_en": "Shanghai" },
+        "sales": 60000,
+        "cities": [
+          {
+            "city": "黄浦区",
+            "sales": 10000,
+            "counties": [
+              { "county": "外滩街道", "sales": 4000 },
+              { "county": "南京东路街道", "sales": 3000 },
+              { "county": "半淞园街道", "sales": 3000 }
+            ]
+          },
+          {
+            "city": "徐汇区",
+            "sales": 8000,
+            "counties": [
+              { "county": "天平路街道", "sales": 3000 },
+              { "county": "湖南路街道", "sales": 3000 },
+              { "county": "枫林路街道", "sales": 2000 }
+            ]
+          },
+          {
+            "city": "长宁区",
+            "sales": 7000,
+            "counties": [
+              { "county": "新华路街道", "sales": 3000 },
+              { "county": "江苏路街道", "sales": 2000 },
+              { "county": "天山路街道", "sales": 2000 }
+            ]
+          },
+          {
+            "city": "静安区",
+            "sales": 7000,
+            "counties": [
+              { "county": "曹家渡街道", "sales": 3000 },
+              { "county": "江宁路街道", "sales": 2000 },
+              { "county": "南京西路街道", "sales": 2000 }
+            ]
+          },
+          {
+            "city": "普陀区",
+            "sales": 6000,
+            "counties": [
+              { "county": "长风新村街道", "sales": 3000 },
+              { "county": "曹杨新村街道", "sales": 2000 },
+              { "county": "宜川路街道", "sales": 1000 }
+            ]
+          },
+          {
+            "city": "虹口区",
+            "sales": 6000,
+            "counties": [
+              { "county": "欧阳路街道", "sales": 3000 },
+              { "county": "凉城新村街道", "sales": 2000 },
+              { "county": "江湾镇街道", "sales": 1000 }
+            ]
+          },
+          {
+            "city": "杨浦区",
+            "sales": 5000,
+            "counties": [
+              { "county": "五角场街道", "sales": 2000 },
+              { "county": "新江湾城街道", "sales": 2000 },
+              { "county": "四平路街道", "sales": 1000 }
+            ]
+          },
+          {
+            "city": "闵行区",
+            "sales": 4000,
+            "counties": [
+              { "county": "莘庄镇", "sales": 2000 },
+              { "county": "七宝镇", "sales": 1000 },
+              { "county": "虹桥镇", "sales": 1000 }
+            ]
+          },
+          {
+            "city": "宝山区",
+            "sales": 4000,
+            "counties": [
+              { "county": "大场镇", "sales": 2000 },
+              { "county": "月浦镇", "sales": 1000 },
+              { "county": "罗店镇", "sales": 1000 }
+            ]
+          }
+        ]
+      },
+      {
+        "region": { "name": "广东省", "name_en": "Guangdong" },
+        "sales": 200000,
+        "cities": [
+          {
+            "city": "广州市",
+            "sales": 80000,
+            "counties": [
+              { "county": "天河区", "sales": 30000 },
+              { "county": "越秀区", "sales": 20000 },
+              { "county": "荔湾区", "sales": 15000 },
+              { "county": "海珠区", "sales": 15000 }
+            ]
+          },
+          {
+            "city": "深圳市",
+            "sales": 60000,
+            "counties": [
+              { "county": "福田区", "sales": 20000 },
+              { "county": "南山区", "sales": 15000 },
+              { "county": "罗湖区", "sales": 15000 },
+              { "county": "宝安区", "sales": 10000 }
+            ]
+          },
+          {
+            "city": "东莞市",
+            "sales": 30000,
+            "counties": [
+              { "county": "东城街道", "sales": 10000 },
+              { "county": "南城街道", "sales": 10000 },
+              { "county": "莞城街道", "sales": 10000 }
+            ]
+          },
+          {
+            "city": "佛山市",
+            "sales": 20000,
+            "counties": [
+              { "county": "禅城区", "sales": 10000 },
+              { "county": "南海区", "sales": 5000 },
+              { "county": "顺德区", "sales": 5000 }
+            ]
+          },
+          {
+            "city": "中山市",
+            "sales": 10000,
+            "counties": [
+              { "county": "石岐区街道", "sales": 5000 },
+              { "county": "东区街道", "sales": 3000 },
+              { "county": "西区街道", "sales": 2000 }
+            ]
+          }
+        ]
+      },
+      {
+        "region": { "name": "江苏省", "name_en": "Jiangsu" },
+        "sales": 150000,
+        "cities": [
+          {
+            "city": "南京市",
+            "sales": 50000,
+            "counties": [
+              { "county": "玄武区", "sales": 20000 },
+              { "county": "秦淮区", "sales": 15000 },
+              { "county": "鼓楼区", "sales": 10000 },
+              { "county": "建邺区", "sales": 5000 }
+            ]
+          },
+          {
+            "city": "苏州市",
+            "sales": 40000,
+            "counties": [
+              { "county": "姑苏区", "sales": 15000 },
+              { "county": "吴中区", "sales": 10000 },
+              { "county": "相城区", "sales": 10000 },
+              { "county": "工业园区", "sales": 5000 }
+            ]
+          },
+          {
+            "city": "无锡市",
+            "sales": 30000,
+            "counties": [
+              { "county": "梁溪区", "sales": 10000 },
+              { "county": "滨湖区", "sales": 10000 },
+              { "county": "惠山区", "sales": 10000 }
+            ]
+          },
+          {
+            "city": "常州市",
+            "sales": 20000,
+            "counties": [
+              { "county": "天宁区", "sales": 8000 },
+              { "county": "钟楼区", "sales": 7000 },
+              { "county": "新北区", "sales": 5000 }
+            ]
+          },
+          {
+            "city": "南通市",
+            "sales": 10000,
+            "counties": [
+              { "county": "崇川区", "sales": 5000 },
+              { "county": "港闸区", "sales": 3000 },
+              { "county": "通州区", "sales": 2000 }
+            ]
+          }
+        ]
+      },
+      {
+        "region": { "name": "浙江省", "name_en": "Zhejiang" },
+        "sales": 80000,
+        "cities": [
+          {
+            "city": "杭州市",
+            "sales": 30000,
+            "counties": [
+              { "county": "西湖区", "sales": 10000 },
+              { "county": "江干区", "sales": 10000 },
+              { "county": "拱墅区", "sales": 5000 },
+              { "county": "滨江区", "sales": 5000 }
+            ]
+          },
+          {
+            "city": "宁波市",
+            "sales": 20000,
+            "counties": [
+              { "county": "海曙区", "sales": 8000 },
+              { "county": "江北区", "sales": 7000 },
+              { "county": "鄞州区", "sales": 5000 }
+            ]
+          },
+          {
+            "city": "温州市",
+            "sales": 15000,
+            "counties": [
+              { "county": "鹿城区", "sales": 6000 },
+              { "county": "瓯海区", "sales": 5000 },
+              { "county": "龙湾区", "sales": 4000 }
+            ]
+          },
+          {
+            "city": "绍兴市",
+            "sales": 10000,
+            "counties": [
+              { "county": "越城区", "sales": 4000 },
+              { "county": "柯桥区", "sales": 3000 },
+              { "county": "上虞区", "sales": 3000 }
+            ]
+          }
+        ]
+      },
+      {
+        "region": { "name": "四川省", "name_en": "Sichuan" },
+        "sales": 90000,
+        "cities": [
+          {
+            "city": "成都市",
+            "sales": 50000,
+            "counties": [
+              { "county": "锦江区", "sales": 20000 },
+              { "county": "青羊区", "sales": 15000 },
+              { "county": "武侯区", "sales": 10000 },
+              { "county": "成华区", "sales": 5000 }
+            ]
+          },
+          {
+            "city": "绵阳市",
+            "sales": 20000,
+            "counties": [
+              { "county": "涪城区", "sales": 10000 },
+              { "county": "游仙区", "sales": 7000 },
+              { "county": "安州区", "sales": 3000 }
+            ]
+          },
+          {
+            "city": "德阳市",
+            "sales": 10000,
+            "counties": [
+              { "county": "旌阳区", "sales": 5000 },
+              { "county": "罗江区", "sales": 3000 },
+              { "county": "中江县", "sales": 2000 }
+            ]
+          },
+          {
+            "city": "泸州市",
+            "sales": 10000,
+            "counties": [
+              { "county": "江阳区", "sales": 4000 },
+              { "county": "纳溪区", "sales": 3000 },
+              { "county": "龙马潭区", "sales": 3000 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  { "country": "Germany", "year": 2024, "sales": 580000 },
+  { "country": "India", "year": 2024, "sales": 280000 },
+  { "country": "Brazil", "year": 2024, "sales": 690000 },
+  { "country": "Russia", "year": 2024, "sales": 770000 }
+]

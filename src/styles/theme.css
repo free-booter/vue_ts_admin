@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #0960bd;
+
+  --text-color-primary: #303133;
+  --text-color-regular: #606266;
+  --text-color-secondary: #909399;
+  --text-color-placeholder: #a8abb2;
+  --text-color-disabled: #c0c4cc;
+
+  --border-color: #EBEEF5;
+  --bg-color: #151515;
+  --bg-color-theme: #f3f3f3;
+
+  /* switch */
+  --switch-color-bg: #4c4d4f;
+
+  /* 侧边栏 */
+  /* --bg-side: #FAFAFA; */
+  --bg-side: #ffffff;
+  --bg-side-text: #000;
+  --bg-side-menu: rgba(0, 0, 0, 0.02);
+}
+
+:root[data-theme='dark'] {
+  --bg-color-theme: #293146;
+  --bg-color: #eeeeee;
+  --switch-color-bg: #dcdfe6;
+
+  --bg-side: #282b3c;
+  /* --bg-side-menu: #0a0e16; */
+  --bg-side-menu: #282b3c;
+  --bg-side-text: rgba(255, 255, 255, 0.65);
+}
+:root[data-theme='dark']::view-transition-old(root) {
+  z-index: 100;
+}
+:root::view-transition-new(root),
+:root::view-transition-old(root) {
+  /* 关闭默认动画，否则影响自定义动画的执行 */
+  animation: none;
+}
+
+body {
+  height: 100vh;
+  color: var(--text-color-primary);
+  background-color: var(--bg-color-theme);
+}
+#app {
+  height: 100%;
+}
