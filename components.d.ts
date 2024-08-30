@@ -32,6 +32,8 @@ declare module 'vue' {
     AppProvider: typeof import('./src/components/Application/src/AppProvider.vue')['default']
     AppSearch: typeof import('./src/components/Application/src/search/AppSearch.vue')['default']
     AProgress: typeof import('ant-design-vue/es')['Progress']
+    ATabPane: typeof import('ant-design-vue/es')['TabPane']
+    ATabs: typeof import('ant-design-vue/es')['Tabs']
     ATag: typeof import('ant-design-vue/es')['Tag']
     ATooltip: typeof import('ant-design-vue/es')['Tooltip']
     RouterLink: typeof import('vue-router')['RouterLink']

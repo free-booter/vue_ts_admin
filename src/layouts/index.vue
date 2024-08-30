@@ -23,7 +23,7 @@ import Header from './components/Header/index.vue'
     height: 100vh;
     overflow: hidden;
     overflow-y: scroll;
+    background: var(--bg-color-theme);
   }
-
 }
 </style>

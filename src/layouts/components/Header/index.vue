@@ -1,18 +1,21 @@
 <template>
   <a-layout-header :class="prefixCls">
-    <MenuFoldOutlined v-if="!isCollapse" class="icon-fold" @click="toggleMenuSetting" />
-    <MenuUnfoldOutlined v-else class="icon-fold" @click="toggleMenuSetting" />
-    <!-- 页面名字 -->
-    <div class="page-title">首页</div>
-    <!-- action -->
-    <div :class="`${prefixCls}-action`">
-      <AppSearch />
-      <Notify />
-      <FullScreen />
-      <Setting />
-      <AppDarkModeToggle />
-      <UserDropDown />
-    </div>
+    <section :class="`${prefixCls}-section`">
+      <MenuFoldOutlined v-if="!isCollapse" class="icon-fold" @click="toggleMenuSetting" />
+      <MenuUnfoldOutlined v-else class="icon-fold" @click="toggleMenuSetting" />
+      <!-- 页面名字 -->
+      <div class="page-title">首页</div>
+      <!-- action -->
+      <div :class="`${prefixCls}-action`">
+        <AppSearch />
+        <Notify />
+        <FullScreen />
+        <Setting />
+        <AppDarkModeToggle />
+        <UserDropDown />
+      </div>
+    </section>
+    <Tab />
   </a-layout-header>
 </template>
 
@@ -25,6 +28,7 @@ import Notify from './components/notify/index.vue'
 import FullScreen from './components/fullScreen/index.vue'
 import Setting from './components/setting/index.vue'
 import UserDropDown from './components/userDropDown/index.vue'
+import Tab from '../Tabs/index.vue'
 import { computed } from 'vue';
 import AppDarkModeToggle from '@/components/Application/src/AppDarkModeToggle.vue';
 const AppStore = useAppStore()
@@ -41,15 +45,23 @@ const toggleMenuSetting = () => {
 $prefix-cls: '#{$namespace}-layout-header';
 
 .#{$prefix-cls} {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin-bottom: 20px;
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
-  align-items: center;
-  padding-inline-start: 20px;
-  background: var(--bg-color-theme);
   z-index: 9;
+  background: var(--bg-side);
+
+  &-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+  }
 
   &-action {
     display: flex;

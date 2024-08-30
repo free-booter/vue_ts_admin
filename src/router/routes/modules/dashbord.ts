@@ -12,18 +12,20 @@ const dashboard: RouteRecordRaw = {
   },
   children: [
     {
-      path: 'analysis',
+      path: '/dashboard/analysis',
       name: 'Analysis',
       meta: {
-        title: '分析页'
+        title: '分析页',
+        affix: true
       },
       component: () => import('@/views/dashboard/analysis/index.vue')
     },
     {
-      path: 'workbench',
+      path: '/dashboard/workbench',
       name: 'Workbench',
       meta: {
-        title: '工作台'
+        title: '工作台',
+        affix: true
       },
       component: () => import('@/views/dashboard/workbench/index.vue')
     }
